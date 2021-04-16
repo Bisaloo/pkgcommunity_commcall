@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+libs/
+*.knit.md
+*.html
+*_files/
