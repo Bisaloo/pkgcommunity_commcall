@@ -184,7 +184,7 @@ knitr::include_graphics("figs/scott_notes.png")
 
 - `usethis::use_release_issue()`
 
-```{r, echo = FALSE, out.width='75%', fig.align='center', fig.alt=''}
+```{r, echo = FALSE, out.width='75%', fig.align='center', fig.alt='Screenshot from `usethis::use_release_issue()` documentation. The sentence `"It also helps watchers of your package stay informed about where you are in the process.\" is highlighted.'}
 knitr::include_graphics("figs/use_release_issue.png")
 ```
 
