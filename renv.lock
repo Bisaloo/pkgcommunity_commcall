@@ -1,0 +1,327 @@
+{
+  "R": {
+    "Version": "4.0.5",
+    "Repositories": [
+      {
+        "Name": "bisaloo",
+        "URL": "https://bisaloo.r-universe.dev"
+      },
+      {
+        "Name": "henrikbengtsson",
+        "URL": "https://henrikbengtsson.r-universe.dev"
+      },
+      {
+        "Name": "rlib",
+        "URL": "https://r-lib.r-universe.dev"
+      },
+      {
+        "Name": "ropensci",
+        "URL": "https://ropensci.r-universe.dev"
+      },
+      {
+        "Name": "rstudio",
+        "URL": "https://rstudio.r-universe.dev"
+      },
+      {
+        "Name": "tidyverse",
+        "URL": "https://tidyverse.r-universe.dev"
+      },
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "BH": {
+      "Package": "BH",
+      "Version": "1.75.0-0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e4c04affc2cac20c8fec18385cd14691"
+    },
+    "R6": {
+      "Package": "R6",
+      "Version": "2.5.0.9000",
+      "Source": "Repository",
+      "Repository": "rlib",
+      "Hash": "a8d3567fc2d96f162fe061fe45d8c825"
+    },
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.0.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "dbb5e436998a7eba5a9d682060533338"
+    },
+    "assertthat": {
+      "Package": "assertthat",
+      "Version": "0.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "50c838a310445e954bc13f26f26a6ecf"
+    },
+    "base64enc": {
+      "Package": "base64enc",
+      "Version": "0.1-3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "543776ae6848fde2f48ff3816d0628bc"
+    },
+    "crayon": {
+      "Package": "crayon",
+      "Version": "1.4.1.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "crayon",
+      "RemoteUsername": "r-lib",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "965d1dc161ae09b622145266807c7c9ab2ae925b",
+      "Hash": "da54f2344a01fb3008c93e172f92d513"
+    },
+    "digest": {
+      "Package": "digest",
+      "Version": "0.6.27",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a0cbe758a531d054b537d16dff4d58a1"
+    },
+    "ellipsis": {
+      "Package": "ellipsis",
+      "Version": "0.3.1.9000",
+      "Source": "Repository",
+      "Repository": "rlib",
+      "Hash": "9a9840a73a8b98cde984119dc3d6f79c"
+    },
+    "emo": {
+      "Package": "emo",
+      "Version": "0.0.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "emo",
+      "RemoteUsername": "hadley",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "3f03b11491ce3d6fc5601e210927eff73bf8e350",
+      "Hash": "10f2391a926b0087a671ed9965ea30a3"
+    },
+    "evaluate": {
+      "Package": "evaluate",
+      "Version": "0.14.1",
+      "Source": "Repository",
+      "Repository": "rlib",
+      "Hash": "96c2f0861dc6a1e7511f0ade3c696be5"
+    },
+    "fontawesome": {
+      "Package": "fontawesome",
+      "Version": "0.2.0.9000",
+      "Source": "Repository",
+      "Repository": "rstudio",
+      "Hash": "39043b4b6e77fec8bc839e60ca813e4e"
+    },
+    "generics": {
+      "Package": "generics",
+      "Version": "0.1.0.9000",
+      "Source": "Repository",
+      "Repository": "rlib",
+      "Hash": "24a03607cd10ae68aed1670edd5d758c"
+    },
+    "glue": {
+      "Package": "glue",
+      "Version": "1.4.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "6efd734b14c6471cfe443345f3e35e29"
+    },
+    "highr": {
+      "Package": "highr",
+      "Version": "0.8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "4dc5bb88961e347a0f4d8aad597cbfac"
+    },
+    "htmltools": {
+      "Package": "htmltools",
+      "Version": "0.5.1.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "htmltools",
+      "RemoteUsername": "rstudio",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "9abc3f2d9e23e9f02a0945c526d8a3de77f9cec4",
+      "Hash": "b0ae0e64de0fa5882ec1700a48ac5d66"
+    },
+    "httpuv": {
+      "Package": "httpuv",
+      "Version": "1.5.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "b9d5d39be2150cf86538b8488334b8f8"
+    },
+    "jsonlite": {
+      "Package": "jsonlite",
+      "Version": "1.7.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "98138e0994d41508c7a6b84a0600cfcb"
+    },
+    "knitr": {
+      "Package": "knitr",
+      "Version": "1.32.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "knitr",
+      "RemoteUsername": "yihui",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "bf29440799a135d3383d14e944c9760c44271363",
+      "Hash": "7b83938885b13b22eb4aa27344bf7e63"
+    },
+    "later": {
+      "Package": "later",
+      "Version": "1.1.0.9001",
+      "Source": "Repository",
+      "Repository": "rlib",
+      "Hash": "870443df255b6bbc5764cc3aa482b49e"
+    },
+    "lifecycle": {
+      "Package": "lifecycle",
+      "Version": "1.0.0.9000",
+      "Source": "Repository",
+      "Repository": "rlib",
+      "Hash": "c6c73c7a222896328a6bc78c97ee9300"
+    },
+    "lubridate": {
+      "Package": "lubridate",
+      "Version": "1.7.10",
+      "Source": "Repository",
+      "Repository": "tidyverse",
+      "Hash": "1ebfdc8a3cfe8fe19184f5481972b092"
+    },
+    "magrittr": {
+      "Package": "magrittr",
+      "Version": "2.0.1.9000",
+      "Source": "Repository",
+      "Repository": "tidyverse",
+      "Hash": "5a0664897112f5ae71d2fb85cf14b239"
+    },
+    "markdown": {
+      "Package": "markdown",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "rstudio",
+      "Hash": "3b8aa8fcc5cca7eda8fa8fc615b3c58b"
+    },
+    "mime": {
+      "Package": "mime",
+      "Version": "0.10",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "26fa77e707223e1ce042b2b5d09993dc"
+    },
+    "promises": {
+      "Package": "promises",
+      "Version": "1.2.0.9000",
+      "Source": "Repository",
+      "Repository": "rstudio",
+      "Hash": "1e17a601217eefcdac0f6b035772149c"
+    },
+    "purrr": {
+      "Package": "purrr",
+      "Version": "0.3.4.9000",
+      "Source": "Repository",
+      "Repository": "tidyverse",
+      "Hash": "2c4b26a00c188798b82605a72ff1c22c"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.13.2-16",
+      "Source": "Repository",
+      "Repository": "rstudio",
+      "Hash": "1c9969cbea7f0068bfba62cecd440090"
+    },
+    "rlang": {
+      "Package": "rlang",
+      "Version": "0.4.10.9000",
+      "Source": "Repository",
+      "Repository": "rlib",
+      "Hash": "0624dce817c45fb4539360b206afd1e6"
+    },
+    "rmarkdown": {
+      "Package": "rmarkdown",
+      "Version": "2.7.10",
+      "Source": "GitHub",
+      "Remotes": "yihui/tinytex",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "rmarkdown",
+      "RemoteUsername": "rstudio",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "a4e009b6c15de88a3554f0a192f71a43c067610b",
+      "Hash": "95198f25e93ec2ed7df0c8d02e24c761"
+    },
+    "servr": {
+      "Package": "servr",
+      "Version": "0.21",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "48d1289a847c801b3f0e76fc619fa65d"
+    },
+    "stringi": {
+      "Package": "stringi",
+      "Version": "1.5.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a063ebea753c92910a4cca7b18bc1f05"
+    },
+    "stringr": {
+      "Package": "stringr",
+      "Version": "1.4.0.9000",
+      "Source": "Repository",
+      "Repository": "tidyverse",
+      "Hash": "e645eb7fe37d6a98d3cd72b2266a18e6"
+    },
+    "tinytex": {
+      "Package": "tinytex",
+      "Version": "0.31.3",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "tinytex",
+      "RemoteUsername": "yihui",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "0f690c2ae35e43d659c3160940a1892392a60abc",
+      "Hash": "7410fc0d0a79386d9cc6327e84a33ec4"
+    },
+    "vctrs": {
+      "Package": "vctrs",
+      "Version": "0.3.7.9000",
+      "Source": "Repository",
+      "Repository": "rlib",
+      "Hash": "8b1d6a4240443ca30d5076e80ccb8432"
+    },
+    "xaringan": {
+      "Package": "xaringan",
+      "Version": "0.20",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "ed315d71e31ce90d6369162cde071be9"
+    },
+    "xfun": {
+      "Package": "xfun",
+      "Version": "0.22",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "eab2f8ba53809c321813e72ecbbd19ba"
+    },
+    "yaml": {
+      "Package": "yaml",
+      "Version": "2.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "2826c5d9efb0a88f657c7a679c7106db"
+    }
+  }
+}
