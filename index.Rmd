@@ -27,15 +27,6 @@ li, p {
   font-size: 1.7rem;
   line-height: 150%;
 }
-# From https://www.garrickadenbuie.com/blog/better-progressive-xaringan/
-.highlight-last-item > ul > li, 
-.highlight-last-item > ol > li {
-  opacity: 0.5;
-}
-.highlight-last-item > ul > li:last-of-type,
-.highlight-last-item > ol > li:last-of-type {
-  opacity: 1;
-}
 ```
 
 ## My profile
