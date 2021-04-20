@@ -30,7 +30,10 @@ jobs:
 
       - name: Install packages
         run: |
-          R -e 'install.packages("xaringan")'
+          install.packages("remotes")
+          remotes::install_cran(c("xaringan", "fontawesome"))
+          remotes::install_github("hadley/emo")
+        shell: Rscript {0}
 
       - name: Render Rmarkdown files
         run: |
