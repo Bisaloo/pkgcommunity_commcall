@@ -115,7 +115,9 @@ knitr::include_graphics("figs/anti_feedback.png")
 knitr::include_graphics("figs/lluis_package_interest.png")
 ```
 
-[Source](https://github.com/ropensci-org/community-calls/issues/21#issuecomment-767504258)
+???
+
+https://github.com/ropensci-org/community-calls/issues/21#issuecomment-767504258
 
 ---
 
