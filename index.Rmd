@@ -246,7 +246,7 @@ class: middle, inverse
 # Summary
 
 - Show that you are available and want to communicate
-- Don't let users work for nothing / feel ignored
+- Don't let contributors work for nothing / feel ignored
 - Reduce the workload
 - But leave opportunities to learn
 
