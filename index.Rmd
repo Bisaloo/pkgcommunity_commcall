@@ -29,16 +29,18 @@ li, p {
 }
 ```
 
-## My profile
+## A very personal topic
 
-- Author of some package but contributor (occasional or recurring) of many others
+--
+
 - Got started with R package development by contributing to other packages
+- Author of some package but contributor (occasional or recurring) of many others
+
+--
 
 ### How to reproduce this transition?
 
-???
-
-Different profile than many other active members of the R community
+### How to make sure projects are not simply open-source but community projects?
 
 ---
 
@@ -50,7 +52,11 @@ knitr::include_graphics("figs/anti_feedback.png")
 
 ???
 
-will just give up on using the tool
+usual pattern:
+something is broken/unclear -> give up and move on
+
+we want: 
+something is broken/unclear -> report the issue
 
 ---
 class: center, middle, inverse
@@ -68,7 +74,7 @@ class: highlight-last-item
 
 --
 
-0. Browsed the GitHub repo 
+0. Browsed the GitHub repo (https://github.com/rmaia/pavo)
 0. Noticed an open issue I knew how to solve
 
 --
@@ -89,19 +95,20 @@ class: highlight-last-item
 Continued contributing and eventually became an official maintainer
 
 ---
+layout:true
+## An alternative look at the problem
 
-## Many users think their feedback is not interesting enough
+---
+
+### Many users think their feedback is not interesting enough
 
 ```{r, out.width='65%', fig.alt="Twitter conversation with person 1 saying \"Does anyone else refresh the page every 5 min after posting an issue on Github to see if the developer has answered, or am the only one that anxious?\" and person 2 answering \"Never because I know they don't actually want to deal with that shit. I feel lucky to ever get a reply.\""}
 knitr::include_graphics("figs/anti_feedback.png")
 ```
 
 ---
-layout:true
 
-## Many ~~users~~ developers think their ~~feedback~~ package is not interesting enough
-
----
+### Many ~~users~~ developers think their ~~feedback~~ package is not interesting enough
 
 ```{r, fig.alt="Screenshot from a GitHub comment at https://github.com/ropensci-org/community-calls/issues/21#issuecomment-767504258. Text reads: \"Just an anecdote of my most active repository, in terms of issues. This repository is a 5 years old program we wrote for an assignment of my M.Sc. We didn't expect to be used outside the class, but as it was left on Github some people found it and used it. We realized people were using it when some people starred the repo, then some time later some users reported troubles they had with it.\""}
 knitr::include_graphics("figs/lluis_package_interest.png")
@@ -115,6 +122,12 @@ knitr::include_graphics("figs/lluis_package_interest.png")
 knitr::include_graphics("figs/package_interest.png")
 ```
 
+???
+
+Damaging consequences
+
+Seems like a communication problem
+
 ---
 layout:false
 class: center, middle, inverse
@@ -125,8 +138,9 @@ class: center, middle, inverse
 
 ???
 
-- Make it explicit feedback is valued (and not just virtue signalling)
-- Make it less scary to give feedback / contribute
+Tips to make it less scary to give feedback / contribute
+Based on my experience -> very subjective. Interesting in discussing this
+after.
 
 ---
 class: highlight-last-item
