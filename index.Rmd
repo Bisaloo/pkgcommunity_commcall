@@ -1,6 +1,6 @@
 ---
 title: "My Journey from Package User to Package Developer..."
-subtitle: "...and how to invite more users to take this jouney"
+subtitle: "...and how to invite more users to take this journey"
 author: "Hugo Gruson"
 institute: '`r fontawesome::fa(name = "twitter")` grusonh <br>`r fontawesome::fa(name = "github")` bisaloo'
 date: "2021-04-22"
