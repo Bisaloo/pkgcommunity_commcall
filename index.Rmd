@@ -145,7 +145,7 @@ after.
 ---
 class: highlight-last-item
 
-## Be easy to find and to contact
+## Show that you are available and want to communicate
 
 - If possible, allow to contact you through various platforms
 
@@ -160,7 +160,7 @@ class: highlight-last-item
 ---
 layout: true
 
-## Don't let users work for nothing / feel ignored
+## Don't let contributors work for nothing / feel ignored
 
 ---
 
@@ -245,8 +245,8 @@ class: middle, inverse
 
 # Summary
 
-- Be easy to find and to contact
-- Don't let users work for nothing
+- Show that you are available and want to communicate
+- Don't let users work for nothing / feel ignored
 - Reduce the workload
 - But leave opportunities to learn
 
