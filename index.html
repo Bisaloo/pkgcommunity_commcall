@@ -22,6 +22,8 @@ class: center, middle, inverse, title-slide
 ---
 
 
+class: center, middle, inverse
+
 
 
 &lt;style type="text/css"&gt;
@@ -31,43 +33,18 @@ li, p {
 }
 &lt;/style&gt;
 
-## A very personal topic
-
---
-
-- Got started with R package development by contributing to other packages
-- Author of some package but contributor (occasional or recurring) of many others
-
---
-
-### How to reproduce this transition?
-
-### How to make sure projects are not simply open-source but community projects?
-
----
-
-## Many users think their feedback is not interesting enough
-
-&lt;img src="figs/anti_feedback.png" title="Twitter conversation with person 1 saying &amp;quot;Does anyone else refresh the page every 5 min after posting an issue on Github to see if the developer has answered, or am the only one that anxious?&amp;quot; and person 2 answering &amp;quot;Never because I know they don't actually want to deal with that shit. I feel lucky to ever get a reply.&amp;quot;" alt="Twitter conversation with person 1 saying &amp;quot;Does anyone else refresh the page every 5 min after posting an issue on Github to see if the developer has answered, or am the only one that anxious?&amp;quot; and person 2 answering &amp;quot;Never because I know they don't actually want to deal with that shit. I feel lucky to ever get a reply.&amp;quot;" width="65%" style="display: block; margin: auto;" /&gt;
-
-???
-
-usual pattern:
-something is broken/unclear -&gt; give up and move on
-
-we want: 
-something is broken/unclear -&gt; report the issue
-
----
-class: center, middle, inverse
-
 # My story
 
 ### How I got started and fell in love with package development
 
 ---
-class: highlight-last-item
 
+## My first contribution to an R package
+
+&lt;img src="figs/workflow.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+  
 ## My first contribution to an R package
 
 0. Always on the look out for new features, avid reader of `NEWS` files
@@ -86,25 +63,61 @@ class: highlight-last-item
 ???
 
 - didn't know the etiquette
-- was afraid they would be offended I told them their software is not perfect
+- was afraid they would be offended I told them their package is not perfect
 
 --
 
 Continued contributing and eventually became an official maintainer
 
+--
+
+Felt empowered and started working on other R packages
+
 ---
-layout:true
-## An alternative look at the problem
+class: center, middle
+
+## How to facilitate this transition?
+
+## How to make sure projects are not simply open-source but community projects?
 
 ---
 
-### Many users think their feedback is not interesting enough
+## Many users think their feedback would not be valued
 
 &lt;img src="figs/anti_feedback.png" title="Twitter conversation with person 1 saying &amp;quot;Does anyone else refresh the page every 5 min after posting an issue on Github to see if the developer has answered, or am the only one that anxious?&amp;quot; and person 2 answering &amp;quot;Never because I know they don't actually want to deal with that shit. I feel lucky to ever get a reply.&amp;quot;" alt="Twitter conversation with person 1 saying &amp;quot;Does anyone else refresh the page every 5 min after posting an issue on Github to see if the developer has answered, or am the only one that anxious?&amp;quot; and person 2 answering &amp;quot;Never because I know they don't actually want to deal with that shit. I feel lucky to ever get a reply.&amp;quot;" width="65%" style="display: block; margin: auto;" /&gt;
 
+???
+
+Twitter conversation: 
+- ask how they feel after submitting an issue on GitHub
+
+usual pattern:
+something is broken/unclear -&gt; give up and move on
+
+we want: 
+something is broken/unclear -&gt; report the issue
+
+This is what I want to address
+
+---
+class: center, middle, inverse
+
+# How to foster a community around your package
+
+???
+
+Tips to make it less scary, more rewarding to give feedback / contribute
+
+Based on my experience -&gt; very subjective. Interested in discussing this
+after.
+
+---
+layout:true
+## Have confidence in your project and expect contribution
+
 ---
 
-### Many ~~users~~ developers think their ~~feedback~~ package is not interesting enough
+--
 
 &lt;img src="figs/lluis_package_interest.png" title="Screenshot from a GitHub comment at https://github.com/ropensci-org/community-calls/issues/21#issuecomment-767504258. Text reads: &amp;quot;Just an anecdote of my most active repository, in terms of issues. This repository is a 5 years old program we wrote for an assignment of my M.Sc. We didn't expect to be used outside the class, but as it was left on Github some people found it and used it. We realized people were using it when some people starred the repo, then some time later some users reported troubles they had with it.&amp;quot;" alt="Screenshot from a GitHub comment at https://github.com/ropensci-org/community-calls/issues/21#issuecomment-767504258. Text reads: &amp;quot;Just an anecdote of my most active repository, in terms of issues. This repository is a 5 years old program we wrote for an assignment of my M.Sc. We didn't expect to be used outside the class, but as it was left on Github some people found it and used it. We realized people were using it when some people starred the repo, then some time later some users reported troubles they had with it.&amp;quot;" width="100%" style="display: block; margin: auto;" /&gt;
 
@@ -114,32 +127,14 @@ https://github.com/ropensci-org/community-calls/issues/21#issuecomment-767504258
 
 ---
 
-&lt;img src="figs/package_interest.png" title="Screenshot from a GitHub comment closing a pull request with the following text: &amp;quot;Hi! Thanks for your suggestions. My apologies for responding so (!) late. For a very long time I didn't check pull requests, since I didn't really expect people to be interested enough in this project to want to contribute :) In the meantime, many of your suggestions or variations thereof have been already integrated in the code. The internal structure of the package has changed so much, that I will not merge this pull request. Best, [Maintainer name]&amp;quot;" alt="Screenshot from a GitHub comment closing a pull request with the following text: &amp;quot;Hi! Thanks for your suggestions. My apologies for responding so (!) late. For a very long time I didn't check pull requests, since I didn't really expect people to be interested enough in this project to want to contribute :) In the meantime, many of your suggestions or variations thereof have been already integrated in the code. The internal structure of the package has changed so much, that I will not merge this pull request. Best, [Maintainer name]&amp;quot;" width="75%" style="display: block; margin: auto;" /&gt;
-
-???
-
-Damaging consequences
-
-Seems like a communication problem
+&lt;img src="figs/package_interest.png" title="Screenshot from a GitHub comment closing a pull request with the following text: &amp;quot;Hi! Thanks for your suggestions. My apologies for responding so (!) late. For a very long time I didn't check pull requests, since I didn't really expect people to be interested enough in this project to want to contribute :) In the meantime, many of your suggestions or variations thereof have been already integrated in the code. The internal structure of the package has changed so much, that I will not merge this pull request. Best, [Maintainer name]&amp;quot;" alt="Screenshot from a GitHub comment closing a pull request with the following text: &amp;quot;Hi! Thanks for your suggestions. My apologies for responding so (!) late. For a very long time I didn't check pull requests, since I didn't really expect people to be interested enough in this project to want to contribute :) In the meantime, many of your suggestions or variations thereof have been already integrated in the code. The internal structure of the package has changed so much, that I will not merge this pull request. Best, [Maintainer name]&amp;quot;" width="70%" style="display: block; margin: auto;" /&gt;
 
 ---
-layout:false
-class: center, middle, inverse
-
-# How to foster a community around your package
-
-### Closing the communication gap between users and developers
-
-???
-
-Tips to make it less scary to give feedback / contribute
-Based on my experience -&gt; very subjective. Interesting in discussing this
-after.
-
----
-class: highlight-last-item
+layout: false
 
 ## Show that you are available and want to communicate
+
+--
 
 - If possible, allow to contact you through various platforms
 
@@ -223,12 +218,19 @@ layout:false
 
 &lt;img src="https://docs.github.com/assets/images/help/pull_requests/allow-maintainers-to-make-edits-sidebar-checkbox.png" title="Screenshot presenting the &amp;quot;Allow edits from maintainers&amp;quot; feature" alt="Screenshot presenting the &amp;quot;Allow edits from maintainers&amp;quot; feature" width="100%" style="display: block; margin: auto;" /&gt;
 
+???
+
+demotivating -&gt; cf carpentries advice "don't grab the keyboard from a learner"
+
+empowering
+
 ---
 
 class: middle, inverse
 
 # Summary
 
+- Have confidence in your project and expect contribution
 - Show that you are available and want to communicate
 - Don't let contributors work for nothing / feel ignored
 - Reduce the workload
