@@ -43,9 +43,16 @@ li, p {
 
 ## My first contribution to an R package
 
-```{r, out.width='50%'}
+.pull-left[
+```{r, out.width='100%'}
 knitr::include_graphics("figs/workflow.png")
 ```
+]
+.pull-right[
+### pavo
+
+A cohesive framework for parsing, analyzing and organizing colour from spectral data.
+]
 
 ---
   
