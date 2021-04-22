@@ -30,6 +30,9 @@ li, p {
   font-size: 1.7rem;
   line-height: 150%;
 }
+.footnote {
+  font-size: 1rem;
+}
 ```
 
 # My story
@@ -134,7 +137,7 @@ https://github.com/ropensci-org/community-calls/issues/21#issuecomment-767504258
 
 ---
 
-```{r, out.width='70%', fig.alt="Screenshot from a GitHub comment closing a pull request with the following text: \"Hi! Thanks for your suggestions. My apologies for responding so (!) late. For a very long time I didn't check pull requests, since I didn't really expect people to be interested enough in this project to want to contribute :) In the meantime, many of your suggestions or variations thereof have been already integrated in the code. The internal structure of the package has changed so much, that I will not merge this pull request. Best, [Maintainer name]\""}
+```{r, out.width='75%', fig.alt="Screenshot from a GitHub comment closing a pull request with the following text: \"Hi! Thanks for your suggestions. My apologies for responding so (!) late. For a very long time I didn't check pull requests, since I didn't really expect people to be interested enough in this project to want to contribute :) In the meantime, many of your suggestions or variations thereof have been already integrated in the code. The internal structure of the package has changed so much, that I will not merge this pull request. Best, [Maintainer name]\""}
 knitr::include_graphics("figs/package_interest.png")
 ```
 
@@ -154,6 +157,12 @@ layout: false
 --
 
 - Open issues with unresolved questions (possibly tag as `help-wanted`)
+
+???
+
+on some projects, noticed most feedback comes via email or twitter
+
+engagement, feeling of a community
 
 ---
 layout: true
@@ -233,9 +242,11 @@ layout:false
 
 - Avoid using the 'Allow edits from maintainers' feature
 
-```{r, fig.alt='Screenshot presenting the "Allow edits from maintainers" feature'}
+```{r, fig.alt='Screenshot presenting the "Allow edits from maintainers" feature', out.width='70%'}
 knitr::include_graphics("https://docs.github.com/assets/images/help/pull_requests/allow-maintainers-to-make-edits-sidebar-checkbox.png")
 ```
+
+.footnote[More information on [GitHub blog](https://github.blog/2016-09-07-improving-collaboration-with-forks/) and in [GitHub documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork).]
 
 ???
 
