@@ -152,6 +152,8 @@ knitr::include_graphics("figs/package_interest.png")
 
 Otherwise, we are running the risk of missing out on contributions
 
+By the time they saw my PR, it was out of date
+
 ---
 layout: false
 
@@ -221,10 +223,12 @@ knitr::include_graphics("figs/use_release_issue.png")
 ```
 
 ---
-layout:false
 layout:true
 
+
 ## Reduce the workload
+
+---
 
 ---
 
@@ -250,6 +254,8 @@ To be honest, still not sure how to read it today...
 layout:false
 
 ## But leave opportunities to learn
+
+--
 
 - Avoid using the 'Allow edits from maintainers' feature
 
