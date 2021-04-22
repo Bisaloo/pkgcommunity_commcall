@@ -141,6 +141,10 @@ https://github.com/ropensci-org/community-calls/issues/21#issuecomment-767504258
 knitr::include_graphics("figs/package_interest.png")
 ```
 
+???
+
+Otherwise, we are running the risk of missing out on contributions
+
 ---
 layout: false
 
